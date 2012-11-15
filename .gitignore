@@ -1,0 +1,8 @@
+*.o
+*.swp
+
+bin/
+
+model_0*.txt
+result*.txt
+acc.txt
