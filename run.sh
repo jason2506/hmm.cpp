@@ -1,7 +1,5 @@
 #!/bin/sh
 
-mkdir -p result
-
 ./bin/train $1 data/model_init.txt data/seq_model_01.txt model_01.txt 
 ./bin/train $1 data/model_init.txt data/seq_model_02.txt model_02.txt 
 ./bin/train $1 data/model_init.txt data/seq_model_03.txt model_03.txt 
